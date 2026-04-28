@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Festival Tech del Futuro</title>
+    <meta name="description" content="Festival Tech del Futuro" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+</head>
+ 
+
+<body>
+    <header>
+        <nav class="navbar" aria-label="Navegación principal">
+            <a href="index.html" class="logo">
+                <img src="assets/Logo.png" alt="Festival">
+            </a>
+
+            <!--*BOTON HAMBURGUESA*-->
+            <button 
+            class="nav-toggle" 
+            type="button" 
+            id="nav-toggle" 
+            aria-label="Abrir menu" 
+            aria-controls="nav-list"
+            aria-expanded="false">
+                ☰
+                <!--Los atributos aria hacen el menu accesible-->
+            </button>
+
+            <ul class="nav-list">
+                <li>
+                    <a href="#inicio">Inicio</a>
+
+                </li>
+                <li>
+                    <a href="#que-hacemos">¿Qué hacemos?</a>
+                </li>
+                <li>
+                    <a href="#sobre-nosotros">Sobre nosotros</a>
+                </li>
+                <li>
+                    <a href="#unete">Únete</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="inicio">
+            <span class="brand-name">Festival</span>
+            
+            <h1 id="titulo"></h1>
+            <p id="ciudad"></p>
+            <p id="fecha"></p>
+            <p id="lugar"></p>
+
+        </section>
+
+    
+<section>
+    <h2>Actividades</h2>
+    <p id="lista-actividades"></p>
+</section>
+
+
+<section>
+  <h2>Contacto</h2>
+  <p id="email"></p>
+  <p id="telefono"></p>
+</section>
+
+        <!--  -->
+    </main>
+
+    <footer class="footer-site">
+        <p>© 2026 Festival Tech — Todos los derechos reservados</p>
+    </footer>
+<script src="festival.js"></script>
+   
+</body>
+
+</html>

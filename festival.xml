@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE festival SYSTEM "festival.dtd">
+
+<festival>
+
+  <nombre>Festival Tech del Futuro</nombre>
+  <ciudad>Gijon</ciudad>
+  <fecha>2026-07-15</fecha>
+  <lugar>Centro Joven Digital</lugar>
+
+  <actividades>
+
+    <actividad id="a1" tipo="robotica">
+      <titulo>Robotica</titulo>
+      <descripcion>Taller de robots</descripcion>
+      <hora>10:00</hora>
+      <precio>Gratis</precio>
+    </actividad>
+
+    <actividad id="a2" tipo="videojuegos">
+      <titulo>Torneo gaming Retro</titulo>
+      <descripcion>Competicion de videojuegos clasicos y actuales</descripcion>
+      <hora>12:00</hora>
+      <precio>Gratis</precio>
+    </actividad>
+
+    <actividad id="a3" tipo="ia">
+      <titulo>Taller de Inteligencia Artificial</titulo>
+      <descripcion>Aprende como funciona una IA creando un chatbot</descripcion>
+      <hora>16:00</hora>
+      <precio>Gratis</precio>
+    </actividad>
+
+     <actividad id="a4" tipo="rv">
+      <titulo> Realidad virtual</titulo>
+      <descripcion>Explora Mundos Infinitos</descripcion>
+      <hora>17:00</hora>
+      <precio>Gratis</precio>
+    </actividad>
+
+    <actividad id="a5" tipo="tp">
+      <titulo> Talleres de Programación: Escribe tu Propio Futuro</titulo>
+      <descripcion>Transforma tus ideas en realidad mediante el código</descripcion>
+      <hora>9:00</hora>
+      <precio>Gratis</precio>
+    </actividad>
+
+   <actividad id="a6" tipo="3d">
+      <titulo> Impresión 3D: De bits a átomos</titulo>
+      <descripcion>Dale forma física a tus ideas</descripcion>
+      <hora>11  :00</hora>
+      <precio>Gratis</precio>
+    </actividad>
+  </actividades>
+
+
+  <contacto>
+    <email>info@festival.com</email>
+    <telefono>123456789</telefono>
+  </contacto>
+
+</festival>
